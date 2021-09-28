@@ -1,0 +1,99 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	background-color: #c7eef5;
+	color: #48484a;
+	font-family: 'Merriweather', serif;
+  }
+
+/* Header  */
+  .titleSection {
+	  text-align: center;
+	  padding: 25px;
+	  font-size: xx-large;
+  }
+
+  h1 {
+	font-family: 'Pacifico', cursive;
+	color: #fff;
+  }
+
+  /* Form/input  */
+  .form {
+	  text-align: center;	  
+  }
+
+  .form-element {
+	  padding: 10px;
+	  margin: 5px;
+	  background-color: #fff;
+	  border: none;
+  }
+
+  .form-element:focus { 
+	  outline: none; 
+  }
+
+  button.form-element {
+	  background-color: #ec6e4b;
+	  color: #fff;
+	  border-radius: 16px;
+  }
+
+  ::placeholder {
+	color: #ec6e4b;
+	opacity: 1; 
+  }
+  
+  :-ms-input-placeholder { 
+   color:#ec6e4b;
+  }
+  
+  ::-ms-input-placeholder { 
+   color: #ec6e4b;
+  }
+
+  input[type=text] {
+	color: #48484a;
+  }
+
+ /* Icon and current temp */
+  .weatherSection{
+	  text-align: center;
+	  margin-bottom: 40px;;
+  }
+
+  .weather-temp {
+	  margin: 10px;
+	  color: #fff;
+	  font-size: 2em;
+	  
+  }
+
+  .weather-error{
+	  color: #ec6e4b;
+  }
+ 
+ /* 5 day forecast */
+  .forecastSection {
+	  display: flex;
+	  justify-content: space-around;
+	  flex-wrap: wrap;
+	  margin-bottom: 20px;
+  }
+
+  .forecast-box {
+	  width: 200px;
+	  background-color: #fff;
+	  margin: 5px;
+	  padding: 20px;	 
+	  border-radius: 100px;
+	  text-align: center;
+  }
+
+  .forecast-box p{
+	 margin-bottom: 8px;
+	  color: #ec6e4b;
+	  text-align: center;
+  }
